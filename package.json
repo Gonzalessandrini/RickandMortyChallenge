@@ -12,6 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.5.1",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
   }
 }
